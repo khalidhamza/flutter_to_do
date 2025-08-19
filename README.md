@@ -1,16 +1,48 @@
-# todo_app
+# Todo App
 
-A new Flutter project.
+A simple Flutter Todo application using BLoC for state management.
+
+## Features
+
+- Home layout for managing todos
+- BLoC pattern for state management
+- Custom BLoC observer for debugging
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- [Dart SDK](https://dart.dev/get-dart)
+- Compatible IDE (e.g., Android Studio, VS Code)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+```bash
+git clone https://github.com/khalidhamza/flutter_to_do.get
+cd flutter_to_do
+```
+2. Install dependencies:
+```bash
+flutter pub get
+```
+3. Run the app:
+```bash
+flutter run
+```
+
+## Project Structure
+
+- `lib/main.dart`: App entry point, sets up BLoC observer and root widget.
+- `lib/layout/home_layout.dart`: Main layout for the todo app.
+- `lib/shared/cubit/bloc_observer.dart`: Custom BLoC observer for logging state changes.
+
+## Dependencies
+
+- [flutter](https://pub.dev/packages/flutter)
+- [bloc](https://pub.dev/packages/bloc)
+
+## License
+
+This project is licensed under the MIT License.
