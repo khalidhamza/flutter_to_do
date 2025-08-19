@@ -20,7 +20,7 @@ A simple Flutter Todo application using BLoC for state management.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/khalidhamza/flutter_to_do.get
+git clone https://github.com/khalidhamza/flutter_to_do.git
 cd flutter_to_do
 ```
 2. Install dependencies:
